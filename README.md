@@ -1,3 +1,4 @@
 # ParkingLotDetection
 
-<img width="532" alt="image" src="https://github.com/user-attachments/assets/1ce8c356-a085-4faf-8918-b1486bae1653" />
+<img width="1396" alt="image" src="https://github.com/user-attachments/assets/33b5e9d5-40ca-42d4-b34c-eb869cdf1504" />
+
