@@ -32,7 +32,7 @@ python ParkingLotDetection.py
 ### 4️⃣ Open the web interface
 Open the ParkingLot.html file in a browser to view the real-time parking occupancy visualization.
 
-🚗 Your system is now running, and you can monitor parking occupancy in real-time!
+🚗 Your system is now running and you can monitor parking occupancy in real-time!
 
 ---
 
@@ -41,9 +41,9 @@ Open the ParkingLot.html file in a browser to view the real-time parking occupan
 	1.	The system uses a finetuned YOLO11x for vehicle detection
 	2.	Predefined parking zones are compared against detected bounding boxes
 	3.	Parking data is stored in an SQLite database
-	4.	A WebSocket server updates occupancy and pricing dynamically
+	4.	A **WebSocket** server updates occupancy and pricing dynamically
 	5.	Dynamic pricing adjusts based on total occupancy and historical parking durations
-	6.	The web interface provides a live visualization (🔴 occupied / 🟢 free)
+	6.	The web interface provides a live visualization of the parking space status (🔴 occupied / 🟢 free) and the dynamic pricing
 
 
 Feel free to contribute or raise an issue if you encounter any problems! 🚀
