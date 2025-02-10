@@ -10,7 +10,7 @@ This repository contains an intelligent parking system that detects **occupied a
 
 ### 1️⃣ Clone the repository  
 ```bash
-git clone https://github.com/your-repo/ParkingLotDetection.git
+git clone https://github.com/digital-business-lab/ParkingLotDetection.git
 ```
 
 ### 2️⃣ Install libraries
