@@ -43,7 +43,8 @@ Open the ParkingLot.html file in a browser to view the real-time parking occupan
 	3.	Parking data is stored in an SQLite database
 	4.	A WebSocket server updates occupancy and pricing dynamically
 	5.	Dynamic pricing adjusts based on total occupancy and historical parking durations
-	6.	The web interface provides a live visualization of the parking space status (🔴 occupied / 🟢 free) and the dynamic pricing
+	6.	The web interface provides a live visualization of the parking space status (🔴 occupied / 🟢 free)
+ 		and the dynamic pricing
 
 
 Feel free to contribute or raise an issue if you encounter any problems! 🚀
