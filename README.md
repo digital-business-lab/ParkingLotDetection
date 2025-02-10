@@ -21,7 +21,7 @@ pip install torch torchvision torchaudio websockets opencv-python numpy mss ultr
 ### 3️⃣ Run the detection system
 Navigate to the directory where your finetuned YOLO model is located:
 ```bash
-cd User/FolderWithFintuned11x.pt
+cd ParkingLotDetection
 ```
 Then run the script:
 ```bash
@@ -46,6 +46,26 @@ Open the ParkingLot.html file in a browser to view the real-time parking occupan
 	6.	The web interface provides a live visualization of the parking space status (🔴 occupied / 🟢 free)
  		and the dynamic pricing
 
+---
+
+## 🛠 Adjusting Parking Spot Positions
+
+If your parking lot layout is different, you must update the **predefined parking space coordinates** in ParkingLotDetection.py.
+
+Modify the parking_spots list to match your actual parking lot layout:
+```bash
+parking_spots = [
+    {"coords": ((100, 1000), (120, 1020)), "name": "Slot1"},
+    {"coords": ((200, 1030), (220, 1050)), "name": "Slot2"},
+    {"coords": ((500, 1020), (520, 1040)), "name": "Slot3"},
+    {"coords": ((410, 1100), (430, 1120)), "name": "Slot4"},
+    {"coords": ((580, 1180), (600, 1200)), "name": "Slot5"},
+    # Add or modify more slots according to your real-world parking layout
+]
+```
+
+📌 **Make sure the coordinates match the real parking spots in your camera view!**
+⚠️ **Important: Visualization may not match if layout is changed**
 
 Feel free to contribute or raise an issue if you encounter any problems! 🚀
 
