@@ -1,6 +1,6 @@
 # 🚗 Parking Lot Detection
 ## 📌 Overview  
-This repository contains an intelligent parking system that detects **occupied and free parking spots** using a **finetuned YOLO11x model**. The system **visualizes** real-time parking occupancy and dynamically updates pricing based on demand with a HTML file.
+This repository contains an intelligent parking system that detects **occupied and free parking spots** using a **finetuned YOLO11x model**. The system **visualizes** real-time parking occupancy and dynamically updates pricing based on demand.
 
 <img width="1396" alt="image" src="https://github.com/user-attachments/assets/33b5e9d5-40ca-42d4-b34c-eb869cdf1504" />
 
