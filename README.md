@@ -65,6 +65,7 @@ parking_spots = [
 ```
 
 📌 **Make sure the coordinates match the real parking spots in your camera view!**
+
 ⚠️ **Important: Visualization may not match if layout is changed**
 
 Feel free to contribute or raise an issue if you encounter any problems! 🚀
